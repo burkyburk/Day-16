@@ -7,7 +7,7 @@ h1{
 	font-size: 28px;
 	margin: 4px 0;
 }
-#seach-box	{
+#search-box	{
 	margin-bottom: 8px;
 
 }
@@ -28,9 +28,6 @@ table {
 
 
 
-#results {
-	border: solid 2px black;
-}
 
 
 td {

@@ -6,7 +6,7 @@ function onReady() {
 	
 	function onSearchButtonClick() {
 		imdbSearch($('#search-box').val());
-		$('created').html('');
+		$('#results tr.created').html('');
 	}	
 
 	function imdbSearch(query)	{
@@ -50,44 +50,31 @@ function onReady() {
 						console.log('you clicked me');
 				}	
 
-		
-
-
-
-				
-
 			}
 
 					
-				
-			
+		}
+
+
+	}	
 
 
 
-			
-
-			}
+}
 
 
-				
-
-
-
-
-
-
-				
-						 
-		}	
-
-
-
-			
-
-		
-
-	}
-
+	// 	$.post(
+	// 	'http://tiny-pizza-server.herokuapp.com/collections/burkyburk',
+	// 	{
+	// 		message: 'hello!',
+	// 		name: 'A-Aron'
+	// 	},
+	// 	function(message) {
+	// 		console.log(message);
+	// 		// render(messages);
+	// 	},
+	// 	'json'
+	// );
 
 
 
