@@ -63,18 +63,17 @@ function onReady() {
 }
 
 
-	// 	$.post(
-	// 	'http://tiny-pizza-server.herokuapp.com/collections/burkyburk',
-	// 	{
-	// 		message: 'hello!',
-	// 		name: 'A-Aron'
-	// 	},
-	// 	function(message) {
-	// 		console.log(message);
-	// 		// render(messages);
-	// 	},
-	// 	'json'
-	// );
+		$.post(
+		'http://tiny-pizza-server.herokuapp.com/collections/burkyburk',
+		{
+			data: ('#watchlist'),
+			
+		},
+		function(message) {
+			console.log(message);
+		},
+		'json'
+	);
 
 
 
